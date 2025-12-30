@@ -6,7 +6,7 @@
 ![Library](https://img.shields.io/badge/Lib-PyTorch_%7C_Scikit--Learn-EE4C2C)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-> **📄 [Read the Full Technical Report (PDF)](./docs/report.pdf)**
+> **📄 [Read the Full Technical Report (PDF)](memoria.pdf)**
 > *A comprehensive analysis including theoretical background, full architectural details, and in-depth error analysis.*
 
 ---
