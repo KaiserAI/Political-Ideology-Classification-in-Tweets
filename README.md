@@ -28,7 +28,7 @@ The system analyzes linguistic patterns to categorize text into four distinct se
 The project follows a structured data science lifecycle, detailed in *Chapter 3 & 4* of the attached report.
 
 ### 1. Data Processing
-Using the `politicES_phase_2` dataset (Hugging Face), the raw text undergoes a strict cleaning process:
+Using the `politicES_phase_2` dataset, the raw text undergoes a strict cleaning process:
 * **Normalization:** Lowercasing and removal of special characters.
 * **Noise Removal:** Regex-based filtering of URLs, hashtags (`#`), and user mentions (`@`).
 * **Linguistic Processing:** Tokenization, Stop-word removal, and Lemmatization to reduce feature dimensionality.
@@ -44,21 +44,7 @@ I engineered and evaluated three tiers of models to find the optimal performance
 
 ---
 
-## 📊 Experimental Results
-
-*For detailed confusion matrices and error analysis, please refer to Chapter 5 of the report.*
-
-The experiments demonstrated that Contextual Embeddings (Transformers) significantly outperform statistical methods in detecting political nuance.
-
-### Performance Summary (Test Set)
-| Model | Accuracy | Precision | Recall | F1-Score |
-| :--- | :--- | :--- | :--- | :--- |
-| **Naive Bayes** | XX.X% | 0.XX | 0.XX | 0.XX |
-| **SVM (Linear)** | XX.X% | 0.XX | 0.XX | 0.XX |
-| **Bi-LSTM** | XX.X% | 0.XX | 0.XX | 0.XX |
-| **BETO (Ours)** | **XX.X%** | **0.XX** | **0.XX** | **0.XX** 🏆 |
-
-> **Technical Insight:** Classical models (SVM) performed well on explicit keywords, but struggled with irony and context. The **BETO** model resolved these ambiguities by analyzing the entire sentence structure via its attention mechanisms.
+*For detailed results please refer to Chapter 5 of the report.*
 
 ---
 
